@@ -5,9 +5,12 @@ gem 'rails',     :git => 'git://github.com/rails/rails.git', :branch => '3-2-sta
 gem 'journey',   :git => 'git://github.com/rails/journey.git', :branch => '1-0-stable'
 gem 'arel',      :git => 'git://github.com/rails/arel.git', :branch => '3-0-stable'
 
-gem 'sqlite3'
 group :production do 
   gem 'pg' 
+end 
+
+group :development do 
+  gem 'sqlite3' 
 end 
 
 # Gems used only for assets and not required
