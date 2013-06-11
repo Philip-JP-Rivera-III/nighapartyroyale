@@ -1,5 +1,6 @@
 Nighapartyroyale::Application.routes.draw do
-  resources :posts
+  resources :posts 
+  resources :charges
 
 
   # The priority is based upon order of creation:
